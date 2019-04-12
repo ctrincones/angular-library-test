@@ -17,6 +17,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "tl-lib": [
+        "dist/tl-lib"
+      ],
+      "tl-lib/*": [
+        "dist/tl-lib/*"
+      ]
+    }
   }
 }
