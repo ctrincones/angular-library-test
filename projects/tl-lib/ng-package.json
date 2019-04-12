@@ -5,6 +5,10 @@
         "entryFile": "src/public_api.ts",
         "umdModuleIds": {
             "primeng/accordion": "primeng/accordion"
+        },
+        "externals": {
+            "primeng": "primeng",
+            "primeicons": "primeicons"
         }
     }
 }
