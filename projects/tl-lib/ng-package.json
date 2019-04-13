@@ -2,13 +2,6 @@
     "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
     "dest": "../../dist/tl-lib",
     "lib": {
-        "entryFile": "src/public_api.ts",
-        "umdModuleIds": {
-            "primeng/accordion": "primeng/accordion"
-        },
-        "externals": {
-            "primeng": "primeng",
-            "primeicons": "primeicons"
-        }
+        "entryFile": "src/public_api.ts"
     }
 }
