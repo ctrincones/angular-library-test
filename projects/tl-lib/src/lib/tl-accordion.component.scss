@@ -1,0 +1,49 @@
+:host-context(.tl-lib-red-theme) ::ng-deep .ui-accordion {
+    .ui-accordion-header {
+        a:focus {
+            outline-color: red;
+        }
+    }
+
+    .ui-accordion-header:not(.ui-state-disabled) {
+        &.ui-state-active {
+            a {
+                background-color: red;
+                border: 1px solid red;
+                outline-color: red;
+            }
+        }
+
+        &.ui-state-active:hover {
+            a {
+                background-color: red;
+                border: 1px solid red;
+            }
+        }
+    }
+}
+
+:host-context(.tl-lib-green-theme) ::ng-deep .ui-accordion {
+    .ui-accordion-header {
+        a:focus {
+            outline-color: green;
+        }
+    }
+
+    .ui-accordion-header:not(.ui-state-disabled) {
+        &.ui-state-active {
+            a {
+                background-color: green;
+                border: 1px solid green;
+                outline-color: green;
+            }
+        }
+
+        &.ui-state-active:hover {
+            a {
+                background-color: green;
+                border: 1px solid green;
+            }
+        }
+    }
+}
